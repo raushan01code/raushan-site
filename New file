@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raushan Sharma | Ecommerce Business</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f2f4f8;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg,#111,#333);
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .hero img{
+      width:100%;
+      max-height:300px;
+      object-fit:cover;
+      border-radius:20px;
+    }
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+      margin-bottom:20px;
+    }
+    h1,h2{margin-top:0}
+    .products{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:16px;
+    }
+    .product{
+      background:#fafafa;
+      border-radius:16px;
+      padding:12px;
+      text-align:center;
+    }
+    .product img{width:100%;border-radius:12px}
+    .contact p{margin:6px 0}
+    a{color:#0066ff;text-decoration:none}.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:14px 18px;
+  border-radius:50px;
+  font-weight:bold;
+  box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+footer{text-align:center;padding:20px;color:#666}
+
+  </style>
+</head>
+<body><header>
+  <h1>Raushan Sharma</h1>
+  <p>My Ecommerce Business</p>
+</header><section class="hero">
+  <!-- Business Photo (placeholder) -->
+  <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Business Photo">
+</section><section>
+  <div class="card">
+    <h2>About My Business</h2>
+    <p>Ye meri ecommerce business website hai. Yahan future me products, offers aur online ordering add karenge.</p>
+  </div>
+</section><section>
+  <div class="card">
+    <h2>Sample Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <p>Product 1</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <p>Product 2</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <p>Product 3</p>
+      </div>
+    </div>
+  </div>
+</section><section>
+  <div class="card contact">
+    <h2>Contact</h2>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/raushan01x" target="_blank">@raushan01x</a></p>
+    <p><strong>Phone:</strong> 6299634632</p>
+    <p><strong>Email:</strong> raushansharma06118@gmail.com</p>
+  </div>
+</section><a class="whatsapp" href="https://wa.me/916299634632" target="_blank">WhatsApp Me</a>
+
+<footer>
+  <p>© 2026 Raushan Sharma</p>
+</footer></body>
+</html>
